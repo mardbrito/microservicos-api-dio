@@ -1,6 +1,5 @@
 package one.digitalinnovation.experts.productcatalog.model;
 
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 

@@ -16,9 +16,7 @@ public class ProductController {
 
     @RequestMapping(method = RequestMethod.POST)
     Product create(@RequestBody Product product) {
-
         return productRepository.save(product);
-
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
